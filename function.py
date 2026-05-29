@@ -568,37 +568,15 @@ def calculate_fluxes(df, param, params_solp, meal_input, diet, dur, phytm_rel_ac
 
 def sum_col_un(df, col, nseg):
     """Sum values per fluxes, for the whole simulation"""
-    suma = 0
+    sumn = 0
     for i in col:
         column_name = f'{i}:{i}{nseg-1}'
         if column_name in df.columns:
             column_sum = df[column_name].sum()
-            #print(f"Sum of {column_name}: {column_sum}")
-            suma += column_sum
+            sumn += column_sum
         else:
             print(f"Column {column_name} not found in DataFrame.")
-    #print(f"Total sum: {suma}")
-    return suma
-
-def true_absorption(df, n_seg, flux):
-    """Calculate percentage of absorbed AA"""
-    suma = []
-    abso = 0
-    for i in range(1, n_seg):
-        suma.append(df[f'{flux}{i}'].sum())
-        abso += df[f'{flux}{i}'].sum()
-    return abso
-
-
-def absorption(df, sim_duration, nseg, flux):
-    """Plot the fluxes of absorption """
-    suma = []
-    for i in range(1, sim_duration):
-        abso = 0
-        for k in range(0, nseg-1):
-            abso += df[i, f'{flux}{k}'].sum()
-        suma.append(abso)
-    return suma
+    return sumn
 
 
 def create_df_seg(df_seg, df_final, nseg, flux):
