@@ -1,13 +1,8 @@
-# This script produces Figure of the following manuscript: 
-# Title: A mechansitic model of the digestive fluxes of calcium, phosphorus and zinc in growing pigs
-# Authors: Julien Labarre, Philippe Scmidely, Agnès Narcy, Maamer Jlali, Christelle Loncke, Marie-Pierre Létourneau-Montminy
-# *Corresponding author:
-#           marie-pierre.letourneau-montminy.1@ulaval.ca
-# 
-# Out: Figure3.pdf
-# Date: January 15, 2026
-# Author: Julien Labbare <julien.labarre.1@ulaval.ca>
-
+# **********************************************************************************************************************
+# Julien Labarre, Christelle Loncke, Agnès Narcy, Maamer Jlali, Patrick Schlegel, Philippe Schmidely, 
+# Marie-Pierre Létouneau-Montminy
+# Modelling of calcium, phosphorus, and zinc fluxes in the gastrointestinal tract of growing pigs
+# **********************************************************************************************************************
 
 import numpy as np
 import pandas as pd

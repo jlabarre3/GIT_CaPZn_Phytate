@@ -1,7 +1,7 @@
 # **********************************************************************************************************************
-# Julien Labarre, Christelle Loncke, Agnès Narcy, Patrick Schlegel, Maamer Jlali, Philippe Schmidely, 
+# Julien Labarre, Christelle Loncke, Agnès Narcy, Maamer Jlali, Patrick Schlegel, Philippe Schmidely, 
 # Marie-Pierre Létouneau-Montminy
-# https://gitlab.com/Ju_Lab139/pig-digestive-ca-p-zn/-/tree/afa4df6df408c171aaa6eacc872566634af1f237/
+# Modelling of calcium, phosphorus, and zinc fluxes in the gastrointestinal tract of growing pigs
 # **********************************************************************************************************************
 
 import pandas as pd 

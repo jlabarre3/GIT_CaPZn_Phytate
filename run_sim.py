@@ -1,3 +1,9 @@
+# **********************************************************************************************************************
+# Julien Labarre, Christelle Loncke, Agnès Narcy, Maamer Jlali, Patrick Schlegel, Philippe Schmidely, 
+# Marie-Pierre Létouneau-Montminy
+# Modelling of calcium, phosphorus, and zinc fluxes in the gastrointestinal tract of growing pigs
+# **********************************************************************************************************************
+
 from function import differential_eq, feeding, calculate_fluxes, calculate_pH, name_pools, names_fluxes
 import numpy as np
 import pandas as pd
